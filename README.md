@@ -1,5 +1,6 @@
-# SNES_Multicart_Maker
-A simple tool to make multi-cart games for the SNES Blaster cartridge
+# SNES Multi-Cart Maker
+
+A simple tool to make multi-cart games for the SNES Blaster cartridge.
 
 This tool is super early alpha stages, so there may (will) be bugs.
 
