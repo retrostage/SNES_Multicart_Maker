@@ -1,9 +1,0 @@
-C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES_multiROM_Maker\bin\Debug\SNES_multiROM_Maker.exe.config
-C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES_multiROM_Maker\bin\Debug\SNES_multiROM_Maker.exe
-C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES_multiROM_Maker\bin\Debug\SNES_multiROM_Maker.pdb
-C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES_multiROM_Maker\obj\Debug\SNES_multiROM_Maker.csprojResolveAssemblyReference.cache
-C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES_multiROM_Maker\obj\Debug\SNES_multiROM_Maker.SNESmulticartMaker.resources
-C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES_multiROM_Maker\obj\Debug\SNES_multiROM_Maker.Properties.Resources.resources
-C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES_multiROM_Maker\obj\Debug\SNES_multiROM_Maker.csproj.GenerateResource.Cache
-C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES_multiROM_Maker\obj\Debug\SNES_multiROM_Maker.exe
-C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES_multiROM_Maker\obj\Debug\SNES_multiROM_Maker.pdb
