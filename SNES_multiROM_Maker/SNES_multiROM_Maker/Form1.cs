@@ -181,19 +181,27 @@ namespace MultiCartMaker
                     header[c] = 0xff;
                 }
 
-                if(snes1.Length < 4194304)
+                //if(snes1.Length < 4194304)
+                //{
+                //    Array.ConstrainedCopy(header, 0, multigame, 0, 512);
+                //    Array.ConstrainedCopy(snes1, 0, multigame, 512, snes1.Length);
+                //    Array.ConstrainedCopy(snes1, 0, multigame, 512 + snes1.Length, snes1.Length);
+                //    Array.ConstrainedCopy(snes2, 0, multigame, snes1.Length + snes1.Length + 512, snes2.Length);
+                //}
+                //else if (snes2.Length < 4194304)
+                //{
+                //    Array.ConstrainedCopy(header, 0, multigame, 0, 512);
+                //    Array.ConstrainedCopy(snes1, 0, multigame, 512, snes1.Length);                    
+                //    Array.ConstrainedCopy(snes2, 0, multigame, snes1.Length + 512, snes2.Length);
+                //    Array.ConstrainedCopy(snes2, 0, multigame, snes1.Length + snes2.Length + 512, snes2.Length);
+                //}
+
+                //fix for v0.03
+                if (is4mb == 0)
                 {
                     Array.ConstrainedCopy(header, 0, multigame, 0, 512);
                     Array.ConstrainedCopy(snes1, 0, multigame, 512, snes1.Length);
-                    Array.ConstrainedCopy(snes1, 0, multigame, 512 + snes1.Length, snes1.Length);
-                    Array.ConstrainedCopy(snes2, 0, multigame, snes1.Length + snes1.Length + 512, snes2.Length);
-                }
-                else if (snes2.Length < 4194304)
-                {
-                    Array.ConstrainedCopy(header, 0, multigame, 0, 512);
-                    Array.ConstrainedCopy(snes1, 0, multigame, 512, snes1.Length);                    
                     Array.ConstrainedCopy(snes2, 0, multigame, snes1.Length + 512, snes2.Length);
-                    Array.ConstrainedCopy(snes2, 0, multigame, snes1.Length + snes2.Length + 512, snes2.Length);
                 }
                 else
                 {
@@ -480,7 +488,7 @@ namespace MultiCartMaker
         private void aboutLink_Click(object sender, EventArgs e)
         {
             string line1 = "                         --SNES MultiCart Maker--";
-            string line2 = "                      Version 0.02, December 6 2021";
+            string line2 = "                      Version 0.03, July 19, 2022";
             string line3 = "For use with the RetroStage SNES Blaster product.";
             string line4 = "Use your own legally obtained ROM files.";
             string line5 = "We do not condone piracy.";

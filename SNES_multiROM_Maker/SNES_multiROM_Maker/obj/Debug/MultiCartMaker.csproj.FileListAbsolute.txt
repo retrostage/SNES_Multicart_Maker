@@ -6,3 +6,4 @@ C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES
 C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES_multiROM_Maker\obj\Debug\MultiCartMaker.SNESmulticartMaker.resources
 C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES_multiROM_Maker\obj\Debug\MultiCartMaker.Properties.Resources.resources
 C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES_multiROM_Maker\obj\Debug\MultiCartMaker.csproj.GenerateResource.Cache
+C:\Users\RetroStage\Dropbox\Visual Studio 2015\Projects\SNES_multiROM_Maker\SNES_multiROM_Maker\obj\Debug\MultiCartMaker.csprojResolveAssemblyReference.cache
